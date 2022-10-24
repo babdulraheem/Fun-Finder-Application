@@ -1,0 +1,60 @@
+body {
+    font-family: "Apple Chancery", cursive;
+    background-color: #c8d8e4;
+}
+
+h1,
+h2,
+p,
+.input {
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+}
+
+.naVcontainer {
+    width: 100%;
+    background-color: #2b6777 !important;
+    padding: 25px 25px 25px 25px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin: 10px 60px;
+    text-align: center;
+    width: 100px;
+}
+
+.input {
+    padding: 10px;
+}
+
+.submit {
+    border-radius: 25px;
+}
+
+.questions {
+    text-align: center;
+}
+
+.POF {
+    text-align: center;
+}
+
+.urls {
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    background-color: #2b6777 !important;
+    padding: 25px 25px 25px 25px;
+    text-align: center;
+}
+
+.cols12 {
+    background-color: #c8d8e4 !important;
+}
