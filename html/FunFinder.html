@@ -3,13 +3,16 @@
 
 <head>
     <title>Fun Activity Generator</title>
-    <link rel="stylesheet" type="text/css" href="assignment2.css">
+    <link rel="stylesheet" href="/css/assignment2.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/materialize.min.css">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--JavaScript at end of body for optimized loading-->
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!--<script type="text/javascript" src="/js/materialize.min.js"></script>-->
+    <link rel="manifest" href="../manifest.json" />
+    <script src="../app.js"></script>
+    <script type="module" src="/js/db.js"></script>
 </head>
 
 <body>
@@ -37,7 +40,8 @@
 
 
 
-
+            <br>
+            <br>
             <div class="cols12">
                 <div id="qs" class="questions">
                     <h3>Questions</h3>
@@ -63,8 +67,8 @@
                         <label for="athletic">Athletic</label><br>
                         <input type="radio" id="average" name="physique" value="AVERAGE">
                         <label for="average">Average</label><br>
-                        <input type="radio" id="obese" name="physique" value="OBESE">
-                        <label for="obese">Obese</label>
+                        <input type="radio" id="foodie" name="physique" value="FOODIE">
+                        <label for="foodie">Foodie</label>
                         <br>
                         <br>
 
@@ -81,8 +85,26 @@
                         <br>
 
 
-                        <input type="submit" value="Submit"></form>
+                        <!--<input type="submit" value="Submit"></form> 
+
+
+
+                        <button id="yesterday">
+                            Submit
+                        </button> -->
+
+                        <input type="button" onclick="RespondClick()" value="Submit">
+                        <br>
+
+
+
+
                 </div>
+                <br>
+
+
+
+
 
 </body>
 

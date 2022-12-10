@@ -58,3 +58,28 @@ footer {
 .cols12 {
     background-color: #c8d8e4 !important;
 }
+
+.input {
+    display: inline !important;
+}
+
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}
+
+.intro {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 300px) {
+    .intro {
+        margin-top: 1000px;
+    }
+    .naVcontainer {
+        margin: 10px;
+    }
+}
